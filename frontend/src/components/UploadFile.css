@@ -1,0 +1,48 @@
+.upload-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px dashed #4CAF50;
+  border-radius: 10px;
+  text-align: center;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.upload-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.upload-container input[type="file"] {
+  margin: 20px 0;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.upload-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+.upload-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
